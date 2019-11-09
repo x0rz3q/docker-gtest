@@ -1,0 +1,13 @@
+= docker-gtest
+
+Docker container for google test
+
+== Commands
+[source,sh]
+----
+make all # build container and push it
+make build # only build container
+make push # push container
+----
+
+For more information see the `Dockerfile` and `Makefile`
